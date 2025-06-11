@@ -1,0 +1,34 @@
+#about .section-title, #reminders .section-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .about-description, .mission-vision p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .mission-vision h5 {
+    margin-top: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .reminder-list li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .reminder-list i {
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 768px) {
+    .about-description, .mission-vision p, .reminder-list li {
+      font-size: 0.95rem;
+    }
+  }

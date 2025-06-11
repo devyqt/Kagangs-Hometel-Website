@@ -1,0 +1,146 @@
+/* Layer 6 Slider Styling */
+#attractions h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 1rem;
+}
+
+.slide {
+  min-width: 250px;
+  max-width: 250px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.slide img:hover {
+  transform: scale(1.05);
+}
+
+.slide p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.slide-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.slide-btn.left {
+  left: 0.5rem;
+}
+
+.slide-btn.right {
+  right: 0.5rem;
+}
+
+.slide-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  padding-top: 60px;
+}
+
+.modal-content {
+  margin: auto;
+  max-width: 80%;
+  height: auto;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+#modalCaption {
+  color: white;
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.modal-close {
+  position: absolute;
+  top: 20px; right: 40px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .slide {
+    min-width: 200px;
+    max-width: 200px;
+  }
+
+  .slide img {
+    height: 140px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider-wrapper {
+    padding: 0 1rem;
+  }
+
+  .slide {
+    min-width: 180px;
+    max-width: 180px;
+  }
+
+  .slide img {
+    height: 120px;
+  }
+
+  .slide-btn {
+    font-size: 1.2rem;
+    padding: 0.3rem 0.7rem;
+  }
+}

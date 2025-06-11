@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="herosection.css">
+  <link rel="stylesheet" href="map.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="herosectionLogo.css">
+  <link rel="stylesheet" href="LocalAttractions/Local Attractions.css">
+  <link rel="stylesheet" href="About&Reminders.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <title>Kagang's Hometel Website</title>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <div class="hero-container">
+    <section id="home" class="hero-section">
+      <div class="overlay">
+        <div class="logo-container">
+          <img src="logo.png" alt="Logo" class="logo-img">
+          <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        </div>
+        <div class="nav-container">
+          <ul id="nav-menu" class="nav-items">
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#attractions">Local Attractions</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reminders">Reminders</a></li>
+          </ul>
+        </div>
+        <div class="hero-text">
+          <p class="subheading">Kagang's Hometel</p>
+          <h1 class="heading">Pahuwayan in the heart of Northern Samar</h1>
+          <a href="#rooms" class="scroll-down">&#x25BC;</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Rooms Section -->
+  <section id="rooms" class="section bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-2">Our Rooms</h2>
+      <p class="text-center text-muted mb-4">Comfort and luxury designed for every kind of traveler.</p>
+      <div class="mb-4">
+        <h4 class="pt-2">Room Types & Rates</h4>
+      </div>
+      <div class="row g-4 align-items-stretch">
+
+        <!-- Room Cards (Repeated as needed) -->
+        <!-- Room 1 -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card shadow-sm h-100">
+            <a href="#" data-bs-toggle="modal" data-bs-target="#room1Modal">
+              <img src="Room Pictures/Standard Room (Solo-Couple)/SC6.jpg" class="card-img-top room-img" alt="Standard Room">
+            </a>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Standard Room (One Double Bed)</h5>
+              <p class="card-text">Perfect for solo travelers or couples.</p>
+              <ul class="list-unstyled mb-2 ps-3 room-features">
+                <li>• Double bed</li>
+                <li>• Private shower</li>
+                <li>• Air-conditioner</li>
+                <li>• Smart TV with YouTube Premium</li>
+                <li>• Complimentary breakfast</li>
+              </ul>
+
+              <p class="mt-auto"><strong>₱1,500/night</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Room 2 -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card shadow-sm h-100">
+            <img src="Room Pictures/Standard Room (With Extra Bed)/SR4.jpg" class="card-img-top room-img" alt="Standard Room With Extra Bed">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Standard Room (With Extra Bed)</h5>
+              <p class="card-text">Perfect for a group of friends of up to 3–4 guests.</p>
+              
+              <ul class="list-unstyled mb-2 ps-3 room-features">
+                <li>• One double bed and one extra bed</li>
+                <li>• Private shower</li>
+                <li>• Air-conditioner</li>
+                <li>• Smart TV with YouTube Premium</li>
+                <li>• Complimentary breakfast</li>
+              </ul>
+
+              <p class="mt-auto"><strong>₱2,000/night</strong></p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Room 3 -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card shadow-sm h-100">
+            <img src="Room Pictures/Family Room/FR1.jpg" class="card-img-top room-img" alt="Family Room">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Family Room</h5>
+              <p class="card-text">Ideal for families of up to 3 guests.</p>
+
+              <ul class="list-unstyled mb-2 ps-3 room-features">
+                <li>• One double bed and one single bed</li>
+                <li>• Private shower</li>
+                <li>• Air-conditioner</li>
+                <li>• Smart TV with YouTube Premium</li>
+                <li>• Complimentary breakfast</li>
+              </ul>
+
+              <p class="mt-auto"><strong>₱2,000/night</strong></p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Room 4 -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card shadow-sm h-100">
+            <img src="Room Pictures/Deluxe Room/DR1.jpg" class="card-img-top room-img" alt="Deluxe Room">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Deluxe Room</h5>
+              <p class="card-text">Spacious comfort for 5 guests.</p>
+
+              <ul class="list-unstyled mb-2 ps-3 room-features">
+                <li>• One double bed and two extra beds</li>
+                <li>• Private shower</li>
+                <li>• Air-conditioner</li>
+                <li>• Smart TV with YouTube Premium</li>
+                <li>• Private balcony</li>
+                <li>• Complimentary breakfast</li>
+              </ul>
+
+              <p class="mt-auto"><strong>₱2,500/night</strong></p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Location Section -->
+  <section id="location" class="section bg-light">
+    <div class="container">
+      <fieldset>
+        <legend class="text-center mb-4 fw-bold">Our Location</legend>
+        <p><b>Hotel Address:</b> Cor. 6th St. & Lectana St., Brgy. Quirino Dist., Las Navas N. Samar</p>
+        <p>Directions or Nearby Landmarks: Near new market-Las Navas & D’Turbanada Transport</p>
+        <p>Parking Information: Parking is in front of the hotel</p>
+        <div class="map-responsive">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.8866244232063!2d125.0325781!3d12.3383375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x330985f812793781%3A0x561ab34419e1a9d1!2s82QM%2B82P%2C%20Las%20Navas%2C%20Northern%20Samar!5e1!3m2!1sen!2sph!4v1749143953810!5m2!1sen!2sph" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </fieldset>
+    </div>
+  </section>
+
+
+
+<!-- Layer 6: Local Attractions & Local Foods -->
+<section id="attractions" class="section bg-white py-5" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+  <div class="container text-center">
+    <h2 class="mb-4">Local Attractions</h2>
+
+    <div class="slider-wrapper" style="position: relative; overflow: hidden;">
+      <button class="slide-btn left" onclick="prevSlide()">&#10094;</button>
+
+      <div class="slider" id="imageSlider" style="display: flex; transition: transform 0.5s ease;">
+        <div class="slide">
+          <img src="LocalAttractions/Dolores Peak.JPG" alt="Dolores Peak">
+          <p>Dolores Peak</p>
+        </div>
+        <div class="slide">
+          <img src="LocalAttractions/Las navas bridge.JPG" alt="Las Navas Bridge">
+          <p>Las Navas Bridge</p>
+        </div>
+        <div class="slide">
+          <img src="LocalAttractions/Las Navas River.JPG" alt="Las Navas Bridge">
+          <p>Las Navas River</p>
+        </div>
+        <div class="slide">
+          <img src="LocalAttractions/Las Navas town.JPG" alt="Las Navas Town">
+          <p>Las Navas Town</p>
+        </div>
+        <div class="slide">
+          <img src="LocalAttractions/Las navas town2.JPG" alt="Las Navas Town">
+          <p>Las Navas Town</p>
+        </div>
+        <div class="slide">
+          <img src="LocalAttractions/Our Lady’s Nativity Parish.JPG" alt="Our Lady’s Nativity Parish">
+          <p>Our Lady’s Nativity Parish</p>
+        </div>
+        <div class="slide">
+          <img src="LocalAttractions/Sea of Clouds.JPG" alt="Sea of Clouds">
+          <p>Sea of Clouds</p>
+        </div>
+      </div>
+
+      <button class="slide-btn right" onclick="nextSlide()">&#10095;</button>
+    </div>
+  </div>
+
+  <!-- Image Modal -->
+  <div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <p id="modalCaption"></p>
+  </div>
+</section>
+
+<!-- Layer 7: About Us -->
+<section id="about" class="section bg-light py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="section-title">About Us</h2>
+      <p class="lead">About Kagang’s Hometel</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <p class="about-description">
+          Established in 2022, Kagang’s Hometel is perfectly located at the center of Las Navas’ commercial zone. The hometel is just steps away from local cafés, transport terminals, a remittance center, Rural Health Unit (RHU), the new public market, and grocery stores. Whether you’re visiting for business or leisure, Kagang’s Hometel offers the convenience of the town with the warmth of a home.
+        </p>
+
+        <div class="mission-vision mt-4">
+          <h5><strong>Mission</strong></h5>
+          <p>At Kagang’s Hometel, we provide warm and comfortable stays that reflect the hospitality of Las Navas.</p>
+          <h5><strong>Vision</strong></h5>
+          <p>To be the top local hotel in Las Navas—known for heartfelt service, home-like comfort, and strong community ties.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Layer 8: Hotel Reminders -->
+<section id="reminders" class="section bg-white py-5">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2 class="section-title">Hotel Reminders</h2>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <ul class="reminder-list list-unstyled">
+          <li><i class="bi bi-check-circle-fill text-success me-2"></i> All guests must present a valid ID upon check-in.</li>
+          <li><i class="bi bi-x-circle-fill text-danger me-2"></i> The hotel strictly enforces a no-smoking policy. A Php 5,000 fine will be charged for any violation.</li>
+          <li><i class="bi bi-x-circle-fill text-danger me-2"></i> The hotel does not accommodate short-time stays.</li>
+          <li><i class="bi bi-exclamation-triangle-fill text-warning me-2"></i> The management treats the hotel as their home. Guests are encouraged to show respect to the property, staff, and fellow guests.</li>
+          <li><i class="bi bi-volume-mute-fill text-muted me-2"></i> The hotel is intended as a “pahuwayan” (resting place). We do not allow liquor inside rooms, loud gatherings, parties, or any activity that may disturb other guests.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  &copy; 2025 Kagang's Hometel. All rights reserved.
+</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="nav-item.js"></script>
+<script src="LocalAttractions/LocalAttraction.js"></script>
+</body>
+</html>
+

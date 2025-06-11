@@ -1,0 +1,7 @@
+Content
+• hotel description 
+• address
+• Registered business
+• rooms (pics, room description, room rates)
+•hotel reminders
+

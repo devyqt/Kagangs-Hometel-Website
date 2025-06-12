@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Satisfy";
+  src: url("fonts/Satisfy-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins Regular";
+  src: url("fonts/poppins/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins SemiBold";
+  src: url("fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins ExtraBold";
+  src: url("fonts/poppins/Poppins-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins Bold";
+  src: url("fonts/poppins/Poppins-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins Medium";
+  src: url("fonts/poppins/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Playfair Medium";
+  src: url("fonts/Playfair/PlayfairDisplay-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Playfair Black";
+  src: url("fonts/Playfair/PlayfairDisplay-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Playfair ExtraBold";
+  src: url("fonts/Playfair/PlayfairDisplay-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Playfair SemiBold";
+  src: url("fonts/Playfair/PlayfairDisplay-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Playfair Regular";
+  src: url("fonts/Playfair/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Playfair Bold";
+  src: url("fonts/Playfair/PlayfairDisplay-Bold.ttf") format("truetype");
+}

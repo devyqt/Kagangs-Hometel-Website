@@ -1,12 +1,19 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const navToggle = document.getElementById('nav-toggle');
-  const navMenu = document.getElementById('nav-menu');
+$(document).ready(function () {
+  $('.offcanvas a[href^="#"]').on("click", function (e) {
+    const targetId = $(this).attr("href");
 
-  navToggle.addEventListener('click', () => {
-    navMenu.classList.toggle('show');
+    // Let the browser scroll first
+    setTimeout(() => {
+      const offcanvas = bootstrap.Offcanvas.getInstance($("#sideDrawer")[0]);
+      if (offcanvas) offcanvas.hide();
+    }, 100); // Slight delay to allow scrolling
 
-    // Optional: toggle aria-expanded for accessibility
-    const expanded = navToggle.getAttribute('aria-expanded') === 'true' || false;
-    navToggle.setAttribute('aria-expanded', !expanded);
+    // Optional: smooth scroll (if not using CSS `scroll-behavior: smooth`)
+    $("html, body").animate(
+      {
+        scrollTop: $(targetId).offset().top,
+      },
+      500
+    );
   });
 });

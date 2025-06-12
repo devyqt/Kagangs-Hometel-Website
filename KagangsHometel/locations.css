@@ -1,0 +1,69 @@
+/* COMMUNITES VIEW */
+#attractions .owl-carousel .item img {
+  cursor: pointer;
+}
+.locations-wrapper {
+  padding-top: 72px;
+}
+.location-item {
+  display: flex;
+  flex-direction: column;
+}
+.location-item a {
+  flex: 6;
+  border-radius: 10px;
+}
+.location-item img {
+  object-fit: cover;
+  aspect-ratio: 419/298;
+}
+
+.location-info {
+  flex: 4;
+  text-align: center;
+  padding-top: 15px;
+}
+.locations .owl-dots .owl-dot span {
+  padding: 0 20px;
+  background-color: var(--ash-gray);
+  height: 5px;
+}
+.locations.owl-theme .owl-dots .owl-dot.active span {
+  background-color: var(--old-gold);
+}
+.location-name {
+  font-family: "Poppins SemiBold", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+}
+.location-location {
+  text-transform: capitalize;
+  margin-bottom: 0.6rem;
+  font-family: "Poppins Regular", Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--old-gold);
+}
+.locations-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: var(--dark-gray);
+}
+.locations-desc p {
+  margin: 0;
+}
+
+.locations .owl-stage {
+  padding-top: 50px;
+}
+
+.locations .owl-stage .center {
+  margin-top: -50px;
+  transition: margin-top 0.3s ease-in-out;
+}
+
+.locations .owl-stage .owl-item:not(.center) {
+  margin-top: 0; /* Moves back down smoothly */
+  transition: margin-top 0.3s ease-in-out;
+}

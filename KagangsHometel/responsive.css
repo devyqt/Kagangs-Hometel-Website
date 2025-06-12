@@ -1,0 +1,22 @@
+@media screen and (max-width: 576px) {
+  div.images-info-pair {
+    flex-wrap: wrap;
+    display: flex;
+    row-gap: 2em;
+  }
+  div.info-panel {
+    padding: 0;
+  }
+  div.horizontal-center br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 900px) {
+  #rooms div.horizontal-center br {
+    display: none;
+  }
+}

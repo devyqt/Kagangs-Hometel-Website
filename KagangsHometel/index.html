@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="locations.css" />
+    <link rel="stylesheet" href="rooms.css" />
+    <link rel="stylesheet" href="herosection.css" />
+    <link rel="stylesheet" href="map.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="herosectionLogo.css" />
+    <link rel="stylesheet" href="LocalAttractions/Local Attractions.css" />
+    <link rel="stylesheet" href="About&Reminders.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- OWL CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <title>Kagang's Hometel Website</title>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div class="hero-container">
+      <section id="home" class="hero-section">
+        <div class="overlay">
+          <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo-img" />
+            <button
+              id="nav-toggle"
+              type="button"
+              class="nav-toggle"
+              aria-label="Toggle navigation"
+              data-bs-target="#sideDrawer"
+              data-bs-toggle="offcanvas"
+              aria-controls="#sideDrawer"
+            >
+              ☰
+            </button>
+          </div>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="sideDrawer"
+            aria-labelledby="sideDrawerLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="sideDrawerLabel">Navigation</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <a href="#rooms">
+                <div class="menu-item">
+                  <p>Rooms</p>
+                </div>
+              </a>
+              <hr />
+              <a href="#location">
+                <div class="menu-item">
+                  <p>Location</p>
+                </div>
+              </a>
+              <hr />
+              <a href="#attractions">
+                <div class="menu-item">
+                  <p>Local Attractions</p>
+                </div>
+              </a>
+              <hr />
+              <a href="#about">
+                <div class="menu-item">
+                  <p>About</p>
+                </div>
+              </a>
+              <hr />
+              <a href="#reminders">
+                <div class="menu-item">
+                  <p>Reminders</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-text">
+            <h1 class="subheading">Kagang's Hometel</h1>
+            <h2 class="heading">Pahuwayan in the heart of Northern Samar</h2>
+            <a href="#rooms" class="scroll-down">&#x25BC;</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="section bg-light py-5">
+      <div class="container">
+        <div class="horizontal-center mb-2">
+          <h6 class="text-center mb-2 small-title">Our Rooms</h6>
+          <h2 class="text-center title mb-4">
+            Comfort and Luxury Designed<br />
+            for Every Kind of Traveler
+          </h2>
+          <p>
+            At Kagang's Hometel, we offer thoughtfully prepared stays that blend
+            comfort, simplicity, and a touch of home — perfect for families,
+            travelers, and anyone looking to rest in the heart of Northern
+            Samar.
+          </p>
+        </div>
+        <!-- <div class="mb-4">
+          <h4 class="pt-2">Room Types & Rates</h4>
+        </div> -->
+        <div class="row g-4 align-items-stretch" id="rooms-container"></div>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section bg-light">
+      <div class="container">
+        <fieldset>
+          <legend class="text-center mb-4 fw-bold title">Our Location</legend>
+          <div class="map-responsive">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.8866244232063!2d125.0325781!3d12.3383375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x330985f812793781%3A0x561ab34419e1a9d1!2s82QM%2B82P%2C%20Las%20Navas%2C%20Northern%20Samar!5e1!3m2!1sen!2sph!4v1749143953810!5m2!1sen!2sph"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <p>
+            <b>Hotel Address:</b>
+            Cor. 6th St. & Lectana St., Brgy. Quirino Dist., Las Navas N. Samar
+          </p>
+          <p>
+            <strong>Directions or Nearby Landmarks:</strong> Near new market-Las
+            Navas & D’Turbanada Transport
+          </p>
+          <p>
+            <strong>Parking Information:</strong> Parking is in front of the
+            hotel
+          </p>
+        </fieldset>
+      </div>
+    </section>
+
+    <!-- Layer 6: Local Attractions & Local Foods -->
+    <section
+      id="attractions"
+      class="section bg-white py-5"
+      style="font-family: Verdana, Geneva, Tahoma, sans-serif"
+    >
+      <div class="container text-center">
+        <h2 class="mb-4 title">Local Attractions</h2>
+        <div class="owl-carousel owl-theme locations">
+          <div class="item">
+            <div class="location-item">
+              <div class="scale-img-wrapper">
+                <img
+                  src="LocalAttractions/Dolores Peak.JPG"
+                  alt="Dolores Peak"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="location-info">
+                <p class="location-name">Dolores Peak</p>
+                <p class="location-location">
+                  Location or other additional info?
+                </p>
+                <div class="locations-desc">
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="location-item">
+              <div class="scale-img-wrapper">
+                <img
+                  src="LocalAttractions/Las navas bridge.JPG"
+                  alt="Las Navas Bridge"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="location-info">
+                <p class="location-name">Las Navas Bridge</p>
+                <p class="location-location">
+                  Location or other additional info?
+                </p>
+                <div class="locations-desc">
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="location-item">
+              <div class="scale-img-wrapper">
+                <img
+                  src="LocalAttractions/Las Navas River.JPG"
+                  alt="Las Navas River"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="location-info">
+                <p class="location-name">Las Navas River</p>
+                <p class="location-location">
+                  Location or other additional info?
+                </p>
+                <div class="locations-desc">
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="location-item">
+              <div class="scale-img-wrapper">
+                <img
+                  src="LocalAttractions/Las Navas town.JPG"
+                  alt="Las Navas Town"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="location-info">
+                <p class="location-name">Las Navas Town</p>
+                <p class="location-location">
+                  Location or other additional info?
+                </p>
+                <div class="locations-desc">
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="location-item">
+              <div class="scale-img-wrapper">
+                <img
+                  src="LocalAttractions/Our Lady’s Nativity Parish.JPG"
+                  alt="Our Lady’s Nativity Parish"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="location-info">
+                <p class="location-name">Our Lady’s Nativity Parish</p>
+                <p class="location-location">
+                  Location or other additional info?
+                </p>
+                <div class="locations-desc">
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="location-item">
+              <div class="scale-img-wrapper">
+                <img
+                  src="LocalAttractions/Sea of Clouds.JPG"
+                  alt="Sea of Clouds"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="location-info">
+                <p class="location-name">Sea of Clouds</p>
+                <p class="location-location">
+                  Location or other additional info?
+                </p>
+                <div class="locations-desc">
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Image Modal -->
+      <div id="imageModal" class="modal" onclick="closeModal()">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage" />
+        <p id="modalCaption"></p>
+      </div>
+    </section>
+
+    <!-- Layer 7: About Us -->
+    <section id="about" class="section bg-light py-5">
+      <div class="container">
+        <div class="images-info-pair">
+          <div class="image-pair">
+            <img
+              class="img-1"
+              src="/About Pictures/about-1.jpg"
+              alt="about 1"
+            />
+            <img
+              class="img-2"
+              src="/About Pictures/about-2.jpg"
+              alt="about 2"
+            />
+          </div>
+          <div class="info-panel">
+            <h2 class="small-title">About Us</h2>
+            <p class="title">About Kagang’s Hometel</p>
+            <p class="about-description">
+              Established in 2022, Kagang’s Hometel is perfectly located at the
+              center of Las Navas’ commercial zone. The hometel is just steps
+              away from local cafés, transport terminals, a remittance center,
+              Rural Health Unit (RHU), the new public market, and grocery
+              stores. Whether you’re visiting for business or leisure, Kagang’s
+              Hometel offers the convenience of the town with the warmth of a
+              home.
+            </p>
+
+            <div class="mission-vision mt-4">
+              <h5>
+                <strong>Mission</strong>
+              </h5>
+              <p>
+                At Kagang’s Hometel, we provide warm and comfortable stays that
+                reflect the hospitality of Las Navas.
+              </p>
+              <h5>
+                <strong>Vision</strong>
+              </h5>
+              <p>
+                To be the top local hotel in Las Navas—known for heartfelt
+                service, home-like comfort, and strong community ties.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Layer 8: Hotel Reminders -->
+    <section id="reminders" class="section bg-white py-5">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="title">Hotel Reminders</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <ul class="reminder-list list-unstyled">
+              <li>
+                <!-- <i class="bi bi-check-circle-fill text-success me-2"></i> -->
+                <img src="/mini-icons/credible.png" alt="valid id" />
+                All guests must present a valid ID upon check-in.
+              </li>
+              <li>
+                <!-- <i class="bi bi-x-circle-fill text-danger me-2"></i> -->
+                <img src="/mini-icons/no-smoking.png" alt="no smoking" />
+                The hotel strictly enforces a no-smoking policy. A Php 5,000
+                fine will be charged for any violation.
+              </li>
+              <li>
+                <!-- <i class="bi bi-x-circle-fill text-danger me-2"></i> -->
+                <img src="/mini-icons/clock.png" alt="clock" />
+                The hotel does not accommodate short-time stays.
+              </li>
+              <li>
+                <!-- <i
+                  class="bi bi-exclamation-triangle-fill text-warning me-2"
+                ></i> -->
+                <img src="/mini-icons/respect.png" alt="respect" />
+                The management treats the hotel as their home. Guests are
+                encouraged to show respect to the property, staff, and fellow
+                guests.
+              </li>
+              <li>
+                <!-- <i class="bi bi-volume-mute-fill text-muted me-2"></i> -->
+                <img src="/mini-icons/keep-quiet.png" alt="keep quiet" />
+                The hotel is intended as a “pahuwayan” (resting place). We do
+                not allow liquor inside rooms, loud gatherings, parties, or any
+                activity that may disturb other guests.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+      &copy; 2025 Kagang's Hometel. All rights reserved.
+    </footer>
+    <div class="modals-container"></div>
+    <!-- JQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="nav-item.js"></script>
+    <script src="LocalAttractions/LocalAttraction.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+    <script src="rooms-logic.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

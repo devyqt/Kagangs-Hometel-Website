@@ -82,14 +82,13 @@ h3 {
 }
 
 .small-title {
-  font-size: 1.2rem;
-  font-family: "Poppins SemiBold";
-  color: var(--old-gold);
-  margin-bottom: 0;
+color: rgb(9, 112, 9);
 }
+
 .title {
   font-size: 2.5rem;
   font-family: "Playfair ExtraBold";
+  
 }
 .horizontal-center {
   text-align: center;

@@ -29,7 +29,7 @@
   height: 5px;
 }
 .locations.owl-theme .owl-dots .owl-dot.active span {
-  background-color: var(--old-gold);
+  background-color: green;
 }
 .location-name {
   font-family: "Poppins SemiBold", Verdana, Geneva, Tahoma, sans-serif;
@@ -41,7 +41,7 @@
   text-transform: capitalize;
   margin-bottom: 0.6rem;
   font-family: "Poppins Regular", Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--old-gold);
+  color: rgb(15, 180, 15);
 }
 .locations-desc {
   display: -webkit-box;

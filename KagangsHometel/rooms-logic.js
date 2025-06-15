@@ -137,7 +137,9 @@ $(document).ready(function () {
 
     // Room card
     const cardHtml = `
-      <div class="col-12 col-md-6 col-lg-6">
+      <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-duration="600" data-aos-delay="${
+        index % 2 !== 0 ? "100" : "0"
+      }">
         <div class="card shadow-sm h-100 room">
           <a href="#" data-bs-toggle="modal" data-bs-target="#${modalId}">
             <img src="${room.image}" class="card-img-top room-img" alt="${

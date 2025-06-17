@@ -27,9 +27,19 @@
     display: flex;
     row-gap: 2em;
   }
+
+  div.footer-grid {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
 }
 
 @media screen and (max-width: 900px) {
+  div.footer-grid {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+
   #rooms div.horizontal-center br {
     display: none;
   }

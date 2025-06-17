@@ -4,6 +4,9 @@
   gap: 20px;
   /* grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); */
 }
+.footer-grid .brand-div {
+  margin-top: -17px;
+}
 .footer-root {
   padding: 3rem 0;
   position: relative;

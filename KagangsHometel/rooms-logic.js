@@ -15,12 +15,12 @@ const rooms = [
       "Room Pictures/Standard Room (Solo-Couple)/SC7.jpg",
     ],
     features: [
-      { icon: "/mini-icons/double-bed.png", text: "Double bed" },
-      { icon: "/mini-icons/shower.png", text: "Private shower" },
-      { icon: "/mini-icons/air-conditioner.png", text: "Air-conditioner" },
-      { icon: "/mini-icons/breakfast.png", text: "Complimentary breakfast" },
+      { icon: "mini-icons/double-bed.png", text: "Double bed" },
+      { icon: "mini-icons/shower.png", text: "Private shower" },
+      { icon: "mini-icons/air-conditioner.png", text: "Air-conditioner" },
+      { icon: "mini-icons/breakfast.png", text: "Complimentary breakfast" },
       {
-        icon: "/mini-icons/television.png",
+        icon: "mini-icons/television.png",
         text: "Smart TV with YouTube Premium",
       },
     ],
@@ -40,16 +40,16 @@ const rooms = [
     ],
     features: [
       {
-        icon: "/mini-icons/double-bed.png",
+        icon: "mini-icons/double-bed.png",
         text: "One double bed and one extra bed",
       },
-      { icon: "/mini-icons/shower.png", text: "Private shower" },
-      { icon: "/mini-icons/air-conditioner.png", text: "Air-conditioner" },
+      { icon: "mini-icons/shower.png", text: "Private shower" },
+      { icon: "mini-icons/air-conditioner.png", text: "Air-conditioner" },
       {
-        icon: "/mini-icons/television.png",
+        icon: "mini-icons/television.png",
         text: "Smart TV with YouTube Premium",
       },
-      { icon: "/mini-icons/breakfast.png", text: "Complimentary breakfast" },
+      { icon: "mini-icons/breakfast.png", text: "Complimentary breakfast" },
     ],
   },
   {
@@ -69,16 +69,16 @@ const rooms = [
     ],
     features: [
       {
-        icon: "/mini-icons/double-bed.png",
+        icon: "mini-icons/double-bed.png",
         text: "One double bed and one single bed",
       },
-      { icon: "/mini-icons/shower.png", text: "Private shower" },
-      { icon: "/mini-icons/air-conditioner.png", text: "Air-conditioner" },
+      { icon: "mini-icons/shower.png", text: "Private shower" },
+      { icon: "mini-icons/air-conditioner.png", text: "Air-conditioner" },
       {
-        icon: "/mini-icons/television.png",
+        icon: "mini-icons/television.png",
         text: "Smart TV with YouTube Premium",
       },
-      { icon: "/mini-icons/breakfast.png", text: "Complimentary breakfast" },
+      { icon: "mini-icons/breakfast.png", text: "Complimentary breakfast" },
     ],
   },
   {
@@ -104,17 +104,17 @@ const rooms = [
     ],
     features: [
       {
-        icon: "/mini-icons/double-bed.png",
+        icon: "mini-icons/double-bed.png",
         text: "One double bed and two extra beds",
       },
-      { icon: "/mini-icons/shower.png", text: "Private shower" },
-      { icon: "/mini-icons/air-conditioner.png", text: "Air-conditioner" },
+      { icon: "mini-icons/shower.png", text: "Private shower" },
+      { icon: "mini-icons/air-conditioner.png", text: "Air-conditioner" },
       {
-        icon: "/mini-icons/television.png",
+        icon: "mini-icons/television.png",
         text: "Smart TV with YouTube Premium",
       },
-      { icon: "/mini-icons/balcony.png", text: "Private balcony" },
-      { icon: "/mini-icons/breakfast.png", text: "Complimentary breakfast" },
+      { icon: "mini-icons/balcony.png", text: "Private balcony" },
+      { icon: "mini-icons/breakfast.png", text: "Complimentary breakfast" },
     ],
   },
 ];

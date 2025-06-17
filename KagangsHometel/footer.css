@@ -1,0 +1,45 @@
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  /* grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); */
+}
+.footer-root {
+  padding: 3rem 0;
+  position: relative;
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  background-color: #343434;
+  /* background-color: var(--dark-gray); */
+}
+.footer-grid .region-nav-branding {
+  margin-bottom: 1rem;
+}
+.footer-grid h2,
+.footer-grid h5 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--bright-green);
+  font-family: "Poppins SemiBold";
+  margin-bottom: 2rem;
+}
+.footer-grid p,
+.footer-grid a {
+  /* color: var(--dark-gray); */
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-grid a.nav-link {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.socmed-logos {
+  display: flex;
+  column-gap: 10px;
+}
+.socmed-logos a img {
+  width: 40px;
+  height: auto;
+}
+
+.navbar-brand img {
+  width: 100px;
+}

@@ -1,16 +1,16 @@
 /* Google Font applied */
-body {
-  font-family: 'Poppins', sans-serif;
+/* body {
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-}
+} */
 
 /* Hero Section */
 .hero-section {
   position: relative;
   width: 100%;
   height: 80vh;
-  background-image: url('bg.jpg');
+  background-image: url("bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,30 +50,25 @@ body {
   position: relative;
 }
 
-.nav-items {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 25px;
-  flex-wrap: wrap;
-  justify-content: center;
+.hero-container .offcanvas-header .offcanvas-title {
+  font-size: 1.25rem;
+  font-family: "Poppins Regular";
 }
 
-.nav-items li a {
-  color: white;
+.hero-container .offcanvas a {
   text-decoration: none;
-  font-family: 'Lora', serif;
-  font-weight: 500;
-  font-size: 1.1rem;
-  padding: 10px 16px;
-  border-radius: 6px;
-  transition: background 0.3s, color 0.3s;
+  color: black;
+  display: block; /* Ensures the anchor behaves like a block element */
 }
 
-.nav-items li a:hover {
-  background: rgba(255, 255, 255, 0.15);
-  color: #f9f9f9;
+.hero-container .offcanvas .menu-item {
+  padding: 20px 0;
+}
+
+.hero-container .offcanvas .menu-item p {
+  margin: 0;
+  font-size: 1.2rem;
+  font-family: "Poppins Regular", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Navigation Toggle Button (for mobile) */
@@ -107,11 +102,13 @@ body {
 
 .hero-text .heading {
   color: #fff;
-  font-size: 2.8rem;
+  /* font-size: 2.8rem; */
+  font-size: clamp(2.5rem, 4vh + 1rem, 3.5rem);
   font-weight: bold;
   margin-top: 10px;
   opacity: 0;
   animation: fadeInUp 1.5s forwards 1s;
+  font-family: "Satisfy";
 }
 
 .scroll-down {
@@ -134,7 +131,8 @@ body {
 }
 
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -180,7 +178,7 @@ body {
     padding: 8px 0;
     color: white;
     text-decoration: none;
-    font-family: 'Lora', serif;
+    font-family: "Lora", serif;
     font-weight: 500;
     font-size: 1.1rem;
     width: 100%;

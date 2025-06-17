@@ -1,34 +1,74 @@
-#about .section-title, #reminders .section-title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-  }
+/* #about .section-title,
+#reminders .section-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+} */
 
-  .about-description, .mission-vision p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
+.about-description,
+.mission-vision p {
+  line-height: 1.6;
+}
 
-  .mission-vision h5 {
-    margin-top: 1.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+.mission-vision h5 {
+  margin-top: 1.5rem;
+}
 
+.reminder-list li {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.reminder-list li img {
+  margin-right: 10px;
+}
+.reminder-list i {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .about-description,
+  .mission-vision p,
   .reminder-list li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
+    font-size: 0.95rem;
   }
+}
 
-  .reminder-list i {
-    font-size: 1.2rem;
-  }
+/* IMAGES INFORMATION PAIR */
+.images-info-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+}
 
-  @media (max-width: 768px) {
-    .about-description, .mission-vision p, .reminder-list li {
-      font-size: 0.95rem;
-    }
-  }
+.image-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: start;
+  column-gap: 16px;
+  height: 100%;
+  align-items: center;
+}
+
+.image-pair img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.image-pair .img-1 {
+  border-radius: 5px 20px;
+}
+.image-pair .img-2 {
+  border-radius: 20px 5px;
+}
+
+.info-panel {
+  padding: 0 60px;
+}
+
+.mission-vision h5 {
+  font-family: "Playfair ExtraBold";
+}

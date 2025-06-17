@@ -1,0 +1,73 @@
+#room-modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* .modals-container .modal .modal-dialog {
+  --bs-modal-width: 1500px;
+} */
+.room-desc {
+  border-bottom: 1px solid var(--ash-gray);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.room-name {
+  font-family: "Playfair SemiBold";
+  font-size: 1.5rem;
+}
+.room-details {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+.room-text {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+.room-desc .room-price {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+.room-features {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  row-gap: 5px;
+}
+
+.room-features li {
+  /* border-right: 1px solid var(--ash-gray);
+  padding: 0 10px; */
+  /* margin-right: 5px; */
+  flex: 1 0 40%;
+}
+.room-features li img {
+  margin-right: 3px;
+}
+.room-features li:first-of-type {
+  padding-left: 0;
+}
+.room-features li:last-of-type {
+  border-right: none;
+}
+
+.modals-container .modal-header {
+  font-family: "Playfair ExtraBold";
+}
+.modals-container .room-price {
+  font-size: 1.5rem;
+  font-family: "Poppins ExtraBold";
+  text-align: start;
+}
+.modals-container .room-text {
+  text-align: start;
+}
+.modal .modal-row {
+  display: grid;
+  grid-template-columns: 4fr 9fr;
+}
+.modals-container .room-features li {
+  flex: 1 0 100%;
+  text-align: start;
+}

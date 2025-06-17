@@ -1,0 +1,36 @@
+@media screen and (max-width: 576px) {
+  div.images-info-pair {
+    flex-wrap: wrap;
+    display: flex;
+    row-gap: 2em;
+  }
+  div.info-panel {
+    padding: 0;
+  }
+  div.horizontal-center br {
+    display: none;
+  }
+
+  div.footer-grid {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  ul.room-features li {
+    flex: 1 0 100%;
+  }
+
+  div.images-info-pair {
+    flex-wrap: wrap;
+    display: flex;
+    row-gap: 2em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #rooms div.horizontal-center br {
+    display: none;
+  }
+}

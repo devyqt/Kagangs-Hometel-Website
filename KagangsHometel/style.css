@@ -94,12 +94,15 @@ h3 {
 }
 
 .small-title {
-  color: rgb(9, 112, 9);
+  font-size: 1 rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 800; /* lighter than ExtraBold */
 }
 
 .title {
-  font-size: 2.5rem;
-  font-family: "Playfair ExtraBold";
+  font-size: 2.2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400; /* lighter than ExtraBold */
 }
 .horizontal-center {
   text-align: center;

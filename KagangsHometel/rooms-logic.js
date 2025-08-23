@@ -19,14 +19,12 @@ const rooms = [
       { icon: "mini-icons/shower.png", text: "Private shower" },
       { icon: "mini-icons/air-conditioner.png", text: "Air-conditioner" },
       { icon: "mini-icons/breakfast.png", text: "Complimentary breakfast" },
-      {
-        icon: "mini-icons/television.png",
-        text: "Smart TV with YouTube Premium",
-      },
+      {icon: "mini-icons/television.png", text: "Smart TV" },
+      {icon: "mini-icons/toiletries.png", text: "Toiletries" },
     ],
   },
   {
-    id: 3,
+    id: 2,
     title: "Family Room",
     price: 2000,
     description: "Ideal for families of up to 3 guests.",
@@ -43,15 +41,16 @@ const rooms = [
     features: [
       {
         icon: "mini-icons/double-bed.png",
-        text: "One double bed and one single bed",
+        text: "Double bed",
       },
       { icon: "mini-icons/shower.png", text: "Private shower" },
       { icon: "mini-icons/air-conditioner.png", text: "Air-conditioner" },
       {
         icon: "mini-icons/television.png",
-        text: "Smart TV with YouTube Premium",
+        text: "Smart TV",
       },
       { icon: "mini-icons/breakfast.png", text: "Complimentary breakfast" },
+      {icon: "mini-icons/toiletries.png", text: "Toiletries" },
     ],
   },
   {
@@ -59,29 +58,31 @@ const rooms = [
     title: "Quad Room",
     price: 2500,
     description: "Perfect for families or friends of up to 4 guests.",
-    image: "Room Pictures/Deluxe Room/DR1.jpeg",
+    image: "Room Pictures/Quad Room/QR1.jpeg",
     images: [
-      "Room Pictures/Deluxe Room/DR1.jpeg",
-      "Room Pictures/Deluxe Room/DR2.jpeg",
-      "Room Pictures/Deluxe Room/DR3.jpeg",
-      "Room Pictures/Deluxe Room/DR4.jpeg",
-      "Room Pictures/Deluxe Room/DR5.jpeg",
-      "Room Pictures/Deluxe Room/DR6.jpeg",
-      "Room Pictures/Deluxe Room/DR7.jpeg",
+      "Room Pictures/Quad Room/QR1.jpeg",
+      "Room Pictures/Quad Room/QR2.jpeg",
+      "Room Pictures/Quad Room/QR3.jpeg",
+      "Room Pictures/Quad Room/QR4.jpeg",
+      "Room Pictures/Quad Room/QR5.jpeg",
+      "Room Pictures/Quad Room/QR6.jpeg",
+      "Room Pictures/Quad Room/QR7.jpeg",
+      "Room Pictures/Quad Room/QR8.jpeg"
     ],
     features: [
       {
         icon: "mini-icons/double-bed.png",
-        text: "One double bed and two extra beds",
+        text: "Double bed",
       },
       { icon: "mini-icons/shower.png", text: "Private shower" },
       { icon: "mini-icons/air-conditioner.png", text: "Air-conditioner" },
       {
         icon: "mini-icons/television.png",
-        text: "Smart TV with YouTube Premium",
+        text: "Smart TV",
       },
       { icon: "mini-icons/balcony.png", text: "Private balcony" },
       { icon: "mini-icons/breakfast.png", text: "Complimentary breakfast" },
+      {icon: "mini-icons/toiletries.png", text: "Toiletries" },
     ],
   },
     {
@@ -102,16 +103,17 @@ const rooms = [
     features: [
       {
         icon: "mini-icons/double-bed.png",
-        text: "One double bed and two extra beds",
+        text: "Double bed",
       },
       { icon: "mini-icons/shower.png", text: "Private shower" },
       { icon: "mini-icons/air-conditioner.png", text: "Air-conditioner" },
       {
         icon: "mini-icons/television.png",
-        text: "Smart TV with YouTube Premium",
+        text: "Smart TV",
       },
       { icon: "mini-icons/balcony.png", text: "Private balcony" },
       { icon: "mini-icons/breakfast.png", text: "Complimentary breakfast" },
+      {icon: "mini-icons/toiletries.png", text: "Toiletries" },
     ],
   },
 ];

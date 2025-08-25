@@ -19,6 +19,24 @@
   justify-content: center;
 }
 
+@media screen and (max-width: 992px) {
+  .hero-section {
+    height: 60vh;
+  }
+}
+
+@media screen {
+  section.hero-section {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  section.hero-section {
+    height: 80vh;
+  }
+}
+
 /* Overlay Background */
 .overlay {
   width: 100%;
@@ -86,9 +104,16 @@
 }
 
 /* Hero Text Styling */
-.hero-text {
+/* .hero-text {
   width: 100%;
   margin-top: 80px;
+} */
+.hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
 }
 
 .hero-text .subheading {
